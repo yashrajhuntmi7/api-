@@ -1,4 +1,4 @@
-fetch("https://api-813k.onrender.com")
+fetch("https://api-813k.onrender.com/cars")
   .then(res => res.json())
   .then(data => {
     data.forEach(player => {
